@@ -1,0 +1,18 @@
+2023-04-23 21:51:58,699 DEBUG decorators.py [<built-in method now of type object at 0x00007FFA33351CD0>] Функция start вызвана из функции None,. (Параметры: (<__main__.Server object at 0x0000012FF60A2C40>,), {})
+2023-04-23 21:51:58,701 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-04-23 21:52:12,388 DEBUG server.py [0] Received: {'action': 'presence', 'message': "I'm here", 'time': 1682275932.387596}
+2023-04-23 21:52:12,388 DEBUG server.py Sended: b'{"response": 200, "message": "OK", "time": 1682275932.388594}'
+2023-04-23 21:52:12,389 DEBUG decorators.py [<built-in method now of type object at 0x00007FFA33351CD0>] Функция recv вызвана из функции None,. (Параметры: (<__main__.Server object at 0x0000012FF60A2C40>, <socket.socket fd=1060, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60898)>), {})
+2023-04-23 21:52:12,389 DEBUG func_server.py Close connection socket
+2023-04-23 21:52:12,389 DEBUG server.py [1] Received: {'action': 'quit', 'message': 'quit', 'time': 1682275932.389593}
+2023-04-23 21:52:12,389 DEBUG server.py Sended: b'{"response": 200, "message": "OK", "time": 1682275932.389593}'
+2023-04-23 21:52:12,390 DEBUG decorators.py [<built-in method now of type object at 0x00007FFA33351CD0>] Функция recv вызвана из функции None,. (Параметры: (<__main__.Server object at 0x0000012FF60A2C40>, <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>), {})
+2023-04-23 21:53:53,548 DEBUG decorators.py [2023-04-23 21:53:53.546664] Функция start вызвана из функции None,. (Параметры: (<__main__.Server object at 0x0000015008EA2C80>,), {})
+2023-04-23 21:53:53,549 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-04-23 21:54:01,790 DEBUG server.py [0] Received: {'action': 'presence', 'message': "I'm here", 'time': 1682276041.789742}
+2023-04-23 21:54:01,790 DEBUG server.py Sended: b'{"response": 200, "message": "OK", "time": 1682276041.790738}'
+2023-04-23 21:54:01,790 DEBUG decorators.py [2023-04-23 21:54:01.790738] Функция recv вызвана из функции None,. (Параметры: (<__main__.Server object at 0x0000015008EA2C80>, <socket.socket fd=1084, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 60994)>), {})
+2023-04-23 21:54:01,790 DEBUG func_server.py Close connection socket
+2023-04-23 21:54:01,790 DEBUG server.py [1] Received: {'action': 'quit', 'message': 'quit', 'time': 1682276041.790738}
+2023-04-23 21:54:01,790 DEBUG server.py Sended: b'{"response": 200, "message": "OK", "time": 1682276041.790738}'
+2023-04-23 21:54:01,792 DEBUG decorators.py [2023-04-23 21:54:01.790738] Функция recv вызвана из функции None,. (Параметры: (<__main__.Server object at 0x0000015008EA2C80>, <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>), {})
