@@ -1,0 +1,6 @@
+2023-04-21 17:19:13,928 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-04-21 17:21:09,763 DEBUG server.py [0] Received: {'action': 'presence', 'message': "I'm here", 'time': 1682086869.763899}
+2023-04-21 17:21:09,763 DEBUG server.py Sended: b'{"response": 200, "message": "OK", "time": 1682086869.763899}'
+2023-04-21 17:21:09,763 DEBUG func_server.py Close connection socket
+2023-04-21 17:21:09,763 DEBUG server.py [1] Received: {'action': 'quit', 'message': 'quit', 'time': 1682086869.763899}
+2023-04-21 17:21:09,763 DEBUG server.py Sended: b'{"response": 200, "message": "OK", "time": 1682086869.763899}'

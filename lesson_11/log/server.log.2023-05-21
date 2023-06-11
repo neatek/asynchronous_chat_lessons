@@ -1,0 +1,99 @@
+2023-05-21 16:32:11,939 DEBUG decorators.py [2023-05-21 16:32:11.938468] Функция start вызвана из функции s.start(). (Параметры: (<__main__.Server object at 0x000002484C567830>,), {})
+2023-05-21 16:32:11,940 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-21 16:32:39,290 DEBUG decorators.py [2023-05-21 16:32:39.289126] Функция start вызвана из функции s.start(). (Параметры: (<__main__.Server object at 0x0000021439867830>,), {})
+2023-05-21 16:32:39,290 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-21 16:36:49,047 DEBUG decorators.py [2023-05-21 16:36:49.047937] Функция start вызвана из функции s.start(). (Параметры: (<__main__.Server object at 0x0000025D13AB0730>,), {})
+2023-05-21 16:36:49,049 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-21 16:45:14,037 DEBUG decorators.py [2023-05-21 16:45:14.037129] Функция start вызвана из функции main(). (Параметры: (<__main__.Server object at 0x0000015F9CF207F0>,), {})
+2023-05-21 16:45:14,037 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-21 16:45:51,691 DEBUG decorators.py [2023-05-21 16:45:51.690629] Функция start вызвана из функции main(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>,), {})
+2023-05-21 16:45:51,691 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-21 16:51:17,364 DEBUG server.py Client ('127.0.0.1', 56566) connected.
+2023-05-21 16:51:17,365 DEBUG server.py [1] Received: {'action': 'presence', 'message': "I'm here", 'time': 1684677077.364328}
+2023-05-21 16:51:17,365 DEBUG server.py Sended: b'{"action": "message", "message": "I\'m here", "time": 1684677077.365328}'
+2023-05-21 16:51:17,366 DEBUG decorators.py [2023-05-21 16:51:17.365328] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:19,159 DEBUG server.py [2] Received: {'action': 'message', 'message': 's', 'time': 1684677079.158519}
+2023-05-21 16:51:19,159 DEBUG server.py Sended: b'{"action": "message", "message": "s", "time": 1684677079.159518}'
+2023-05-21 16:51:19,159 DEBUG decorators.py [2023-05-21 16:51:19.159518] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:19,988 DEBUG server.py [3] Received: {'action': 'message', 'message': 'asd', 'time': 1684677079.988121}
+2023-05-21 16:51:19,989 DEBUG server.py Sended: b'{"action": "message", "message": "asd", "time": 1684677079.988121}'
+2023-05-21 16:51:19,989 DEBUG decorators.py [2023-05-21 16:51:19.989133] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:20,964 DEBUG server.py [4] Received: {'action': 'message', 'message': 'as', 'time': 1684677080.963871}
+2023-05-21 16:51:20,964 DEBUG server.py Sended: b'{"action": "message", "message": "as", "time": 1684677080.964886}'
+2023-05-21 16:51:20,965 DEBUG decorators.py [2023-05-21 16:51:20.964886] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:21,281 DEBUG server.py [5] Received: {'action': 'message', 'message': 'sd', 'time': 1684677081.281827}
+2023-05-21 16:51:21,282 DEBUG server.py Sended: b'{"action": "message", "message": "sd", "time": 1684677081.282827}'
+2023-05-21 16:51:21,282 DEBUG decorators.py [2023-05-21 16:51:21.282827] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:21,660 DEBUG server.py [6] Received: {'action': 'message', 'message': 'sad', 'time': 1684677081.660543}
+2023-05-21 16:51:21,661 DEBUG server.py Sended: b'{"action": "message", "message": "sad", "time": 1684677081.661542}'
+2023-05-21 16:51:21,661 DEBUG decorators.py [2023-05-21 16:51:21.661542] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:22,017 DEBUG server.py [7] Received: {'action': 'message', 'message': 'a', 'time': 1684677082.016623}
+2023-05-21 16:51:22,017 DEBUG server.py Sended: b'{"action": "message", "message": "a", "time": 1684677082.017629}'
+2023-05-21 16:51:22,018 DEBUG decorators.py [2023-05-21 16:51:22.017629] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:22,357 DEBUG server.py [8] Received: {'action': 'message', 'message': 'sda', 'time': 1684677082.357268}
+2023-05-21 16:51:22,357 DEBUG server.py Sended: b'{"action": "message", "message": "sda", "time": 1684677082.357268}'
+2023-05-21 16:51:22,358 DEBUG decorators.py [2023-05-21 16:51:22.357268] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:22,690 DEBUG server.py [9] Received: {'action': 'message', 'message': 'sdad', 'time': 1684677082.68937}
+2023-05-21 16:51:22,690 DEBUG server.py Sended: b'{"action": "message", "message": "sdad", "time": 1684677082.690365}'
+2023-05-21 16:51:22,691 DEBUG decorators.py [2023-05-21 16:51:22.690365] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:23,035 DEBUG server.py [10] Received: {'action': 'message', 'message': 'as', 'time': 1684677083.035813}
+2023-05-21 16:51:23,036 DEBUG server.py Sended: b'{"action": "message", "message": "as", "time": 1684677083.036815}'
+2023-05-21 16:51:23,036 DEBUG decorators.py [2023-05-21 16:51:23.036815] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:23,364 DEBUG server.py [11] Received: {'action': 'message', 'message': 'asda', 'time': 1684677083.364352}
+2023-05-21 16:51:23,364 DEBUG server.py Sended: b'{"action": "message", "message": "asda", "time": 1684677083.364352}'
+2023-05-21 16:51:23,365 DEBUG decorators.py [2023-05-21 16:51:23.364352] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:23,695 DEBUG server.py [12] Received: {'action': 'message', 'message': 'das', 'time': 1684677083.695138}
+2023-05-21 16:51:23,696 DEBUG server.py Sended: b'{"action": "message", "message": "das", "time": 1684677083.695138}'
+2023-05-21 16:51:23,696 DEBUG decorators.py [2023-05-21 16:51:23.696642] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:24,074 DEBUG server.py [13] Received: {'action': 'message', 'message': 'dasd', 'time': 1684677084.074933}
+2023-05-21 16:51:24,075 DEBUG server.py Sended: b'{"action": "message", "message": "dasd", "time": 1684677084.074933}'
+2023-05-21 16:51:24,075 DEBUG decorators.py [2023-05-21 16:51:24.075933] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:24,382 DEBUG server.py [14] Received: {'action': 'message', 'message': 'sad', 'time': 1684677084.382844}
+2023-05-21 16:51:24,382 DEBUG server.py Sended: b'{"action": "message", "message": "sad", "time": 1684677084.382844}'
+2023-05-21 16:51:24,383 DEBUG decorators.py [2023-05-21 16:51:24.382844] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:24,772 DEBUG server.py [15] Received: {'action': 'message', 'message': 'asad', 'time': 1684677084.772139}
+2023-05-21 16:51:24,772 DEBUG server.py Sended: b'{"action": "message", "message": "asad", "time": 1684677084.772139}'
+2023-05-21 16:51:24,773 DEBUG decorators.py [2023-05-21 16:51:24.773138] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:25,084 DEBUG server.py [16] Received: {'action': 'message', 'message': 'asdas', 'time': 1684677085.084644}
+2023-05-21 16:51:25,085 DEBUG server.py Sended: b'{"action": "message", "message": "asdas", "time": 1684677085.084644}'
+2023-05-21 16:51:25,085 DEBUG decorators.py [2023-05-21 16:51:25.085643] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:25,408 DEBUG server.py [17] Received: {'action': 'message', 'message': 'dasd', 'time': 1684677085.408076}
+2023-05-21 16:51:25,409 DEBUG server.py Sended: b'{"action": "message", "message": "dasd", "time": 1684677085.409077}'
+2023-05-21 16:51:25,409 DEBUG decorators.py [2023-05-21 16:51:25.409077] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:25,748 DEBUG server.py [18] Received: {'action': 'message', 'message': 'asd', 'time': 1684677085.748596}
+2023-05-21 16:51:25,748 DEBUG server.py Sended: b'{"action": "message", "message": "asd", "time": 1684677085.748596}'
+2023-05-21 16:51:25,749 DEBUG decorators.py [2023-05-21 16:51:25.749597] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:26,060 DEBUG server.py [19] Received: {'action': 'message', 'message': 'adas', 'time': 1684677086.060803}
+2023-05-21 16:51:26,061 DEBUG server.py Sended: b'{"action": "message", "message": "adas", "time": 1684677086.060803}'
+2023-05-21 16:51:26,061 DEBUG decorators.py [2023-05-21 16:51:26.061817] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:26,430 DEBUG server.py [20] Received: {'action': 'message', 'message': 'dad', 'time': 1684677086.430712}
+2023-05-21 16:51:26,431 DEBUG server.py Sended: b'{"action": "message", "message": "dad", "time": 1684677086.430712}'
+2023-05-21 16:51:26,431 DEBUG decorators.py [2023-05-21 16:51:26.431713] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:26,759 DEBUG server.py [21] Received: {'action': 'message', 'message': 'asd', 'time': 1684677086.75934}
+2023-05-21 16:51:26,759 DEBUG server.py Sended: b'{"action": "message", "message": "asd", "time": 1684677086.75934}'
+2023-05-21 16:51:26,760 DEBUG decorators.py [2023-05-21 16:51:26.759340] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:27,109 DEBUG server.py [22] Received: {'action': 'message', 'message': 'as', 'time': 1684677087.109013}
+2023-05-21 16:51:27,109 DEBUG server.py Sended: b'{"action": "message", "message": "as", "time": 1684677087.109013}'
+2023-05-21 16:51:27,110 DEBUG decorators.py [2023-05-21 16:51:27.110013] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:27,561 DEBUG server.py [23] Received: {'action': 'message', 'message': 'd', 'time': 1684677087.561774}
+2023-05-21 16:51:27,561 DEBUG server.py Sended: b'{"action": "message", "message": "d", "time": 1684677087.561774}'
+2023-05-21 16:51:27,562 DEBUG decorators.py [2023-05-21 16:51:27.562775] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:28,105 DEBUG server.py [24] Received: {'action': 'message', 'message': 'sd', 'time': 1684677088.104457}
+2023-05-21 16:51:28,105 DEBUG server.py Sended: b'{"action": "message", "message": "sd", "time": 1684677088.105472}'
+2023-05-21 16:51:28,105 DEBUG decorators.py [2023-05-21 16:51:28.105472] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56566)>), {})
+2023-05-21 16:51:30,687 DEBUG decorators.py [2023-05-21 16:51:30.687338] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000222638B07F0>, <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>), {})
+2023-05-21 16:52:39,053 DEBUG decorators.py [2023-05-21 16:52:39.052823] Функция start вызвана из функции main(). (Параметры: (<__main__.Server object at 0x0000018564B108B0>,), {})
+2023-05-21 16:52:39,053 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-21 16:58:15,595 DEBUG decorators.py [2023-05-21 16:58:15.595744] Функция start вызвана из функции main(). (Параметры: (<__main__.Server object at 0x0000024D4B703CD0>,), {})
+2023-05-21 16:58:15,596 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-21 16:58:25,616 DEBUG server.py Client ('127.0.0.1', 56675) connected.
+2023-05-21 16:58:25,617 DEBUG server.py [1] Received: {'action': 'presence', 'message': "I'm here", 'time': 1684677505.616383}
+2023-05-21 16:58:25,618 DEBUG server.py Sended: b'{"action": "message", "message": "I\'m here", "time": 1684677505.617384}'
+2023-05-21 16:58:25,618 DEBUG decorators.py [2023-05-21 16:58:25.618387] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x0000024D4B703CD0>, <socket.socket fd=1100, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56675)>), {})
+2023-05-21 16:58:26,890 DEBUG server.py [2] Received: {'action': 'message', 'message': 'asd', 'time': 1684677506.890331}
+2023-05-21 16:58:26,891 DEBUG server.py Sended: b'{"action": "message", "message": "asd", "time": 1684677506.891336}'
+2023-05-21 16:58:26,891 DEBUG decorators.py [2023-05-21 16:58:26.891336] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x0000024D4B703CD0>, <socket.socket fd=1100, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56675)>), {})
+2023-05-21 16:58:27,399 DEBUG server.py [3] Received: {'action': 'message', 'message': 'asd', 'time': 1684677507.399586}
+2023-05-21 16:58:27,400 DEBUG server.py Sended: b'{"action": "message", "message": "asd", "time": 1684677507.399586}'
+2023-05-21 16:58:27,401 DEBUG decorators.py [2023-05-21 16:58:27.400585] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x0000024D4B703CD0>, <socket.socket fd=1100, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56675)>), {})
+2023-05-21 16:58:29,119 DEBUG decorators.py [2023-05-21 16:58:29.119189] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x0000024D4B703CD0>, <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>), {})
