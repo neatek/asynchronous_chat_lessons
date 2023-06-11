@@ -1,0 +1,13 @@
+2023-05-03 11:01:19,867 DEBUG decorators.py [2023-05-03 11:01:19.866166] Функция start вызвана из функции s.start(). (Параметры: (<__main__.Server object at 0x0000016F83929760>,), {})
+2023-05-03 11:01:19,867 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-03 11:01:58,479 DEBUG decorators.py [2023-05-03 11:01:58.478246] Функция start вызвана из функции s.start(). (Параметры: (<__main__.Server object at 0x00000164BD529760>,), {})
+2023-05-03 11:01:58,479 DEBUG server.py Server listening on 0.0.0.0:7777
+2023-05-03 11:01:58,724 DEBUG server.py Client ('127.0.0.1', 50803) connected.
+2023-05-03 11:01:58,726 DEBUG server.py [1] Received: {'action': 'presence', 'message': "I'm here", 'time': 1683100918.725749}
+2023-05-03 11:01:58,727 DEBUG server.py Sended: b'{"action": "message", "message": "I\'m here", "time": 1683100918.726288}'
+2023-05-03 11:01:58,727 DEBUG decorators.py [2023-05-03 11:01:58.727299] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000164BD529760>, <socket.socket fd=708, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50803)>), {})
+2023-05-03 11:01:58,987 DEBUG server.py Client ('127.0.0.1', 50804) connected.
+2023-05-03 11:01:58,988 DEBUG server.py [2] Received: {'action': 'presence', 'message': "I'm here", 'time': 1683100918.988735}
+2023-05-03 11:01:58,988 DEBUG server.py Sended: b'{"action": "message", "message": "I\'m here", "time": 1683100918.988735}'
+2023-05-03 11:01:58,988 DEBUG server.py Sended: b'{"action": "message", "message": "I\'m here", "time": 1683100918.988735}'
+2023-05-03 11:01:58,989 DEBUG decorators.py [2023-05-03 11:01:58.989734] Функция recv вызвана из функции self._bootstrap_inner(). (Параметры: (<__main__.Server object at 0x00000164BD529760>, <socket.socket fd=732, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50804)>), {})
